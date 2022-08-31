@@ -187,6 +187,9 @@ footer,
 footer {
   text-align: center;
 }
+.link-icon {
+  width: 20px;
+}
 
 @media screen and (min-width: 680px) {
   .top-header {
