@@ -68,16 +68,10 @@
       <section class="sub-container" id="tips">
         <h3>Get Started</h3>
         <div class="steps">
-          <div class="flex-container">
-            <img
-              src="http://www.placekitten.com/g/500/300"
-              alt="A Picture of a Kitty"
-            />
-            <img
-              src="http://www.placekitten.com/g/500/300"
-              alt="A Picture of a Kitty"
-            />
-          </div>
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog-c7ff.kxcdn.com%2Fblog%2Fwp-content%2Fuploads%2F2013%2F12%2FBlog-1.jpg&f=1&nofb=1"
+            alt="A Picture of a woman staring at a screen with an almost transparent hologram of a code block across the picture."
+          />
 
           <article>
             <h4>Step 1: The Basics</h4>
@@ -307,11 +301,14 @@
           action="https://formsubmit.co/justin.aquino25@gmail.com"
           method="POST"
         >
+          <!--I wasnt sure if I should be using type="hidden" but I don't want the screen readers
+        to read out this input field with the name _next. This is to redirect the page to the thank you page once the form has been submitted.-->
           <input
             type="hidden"
             name="_next"
             value="https://spiffy-kulfi-51dda1.netlify.app/thanks.html"
           />
+
           <label for="first-name"
             >First Name: <span aria-label="required">*</span>
           </label>

@@ -15,9 +15,9 @@ header {
 }
 
 .top-header {
-  margin: 2%;
+  margin: 3%;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 2px;
 
   color: var(--nav-color);
@@ -25,7 +25,7 @@ header {
 
 .cartoon-image {
   display: block;
-  padding: 2%;
+  padding: 1%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 100%;
@@ -35,21 +35,19 @@ header {
 #primary-nav {
   background-color: var(--primary);
   color: #a484d3;
-  margin: 0 auto;
-  padding: 2%;
+  /* padding: 1%; */
 }
 
 #primary-nav ul {
-  margin: 0 auto;
   text-align: center;
 }
 #primary-nav ul li {
   display: block;
-  padding: 7%;
+  padding: 3%;
 }
 #primary-nav ul li a {
   color: var(--nav-color);
-  letter-spacing: 0.8px;
+  letter-spacing: 0.5px;
   font-size: large;
 }
 
@@ -121,7 +119,7 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   /* border-radius: 100%; */
-  width: 50%;
+  width: 100%;
 }
 
 article > p,
@@ -223,13 +221,22 @@ footer {
   .chef {
     width: 50%;
   }
+  #primary-nav ul {
+    margin: 0 auto;
+    text-align: center;
+  }
 
   #primary-nav ul li {
     display: inline;
     padding: 5%;
   }
+
   p {
     font-size: 20px;
+  }
+
+  .steps img {
+    width: 70%;
   }
 
   article > p,
