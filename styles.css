@@ -40,6 +40,7 @@ header {
 
 #primary-nav ul {
   text-align: center;
+  padding-left: 0;
 }
 #primary-nav ul li {
   display: block;
