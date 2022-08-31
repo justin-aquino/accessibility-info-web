@@ -23,13 +23,13 @@ header {
   color: var(--nav-color);
 }
 
-.header-image {
+.cartoon-image {
   display: block;
   padding: 2%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 100%;
-  width: 20%;
+  width: 50%;
 }
 
 #primary-nav {
@@ -97,6 +97,10 @@ h4 {
   font-size: 15px;
 }
 
+.chef {
+  width: 100%;
+}
+
 .sub-container {
   width: 70%;
   margin: 0 auto;
@@ -119,7 +123,8 @@ h4 {
   width: 50%;
 }
 
-article > p {
+article > p,
+section > p {
   padding-bottom: 5%;
   padding-top: 5%;
   text-indent: 3em;
@@ -173,28 +178,41 @@ label {
 
 @media screen and (min-width: 680px) {
   .top-header {
-    font-size: 40px;
+    font-size: 45px;
     /* color: aqua; */
   }
 
+  .header-image {
+    width: 20%;
+  }
+
   h2 {
-    font-size: 35px;
+    font-size: 40px;
+    margin: 2%;
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 35px;
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  .chef {
+    width: 50%;
   }
 
   #primary-nav ul li {
     display: inline;
     padding: 5%;
   }
+  p {
+    font-size: 20px;
+  }
 
-  article > p {
+  article > p,
+  section > p {
     padding-bottom: 1%;
     padding-top: 1%;
     text-indent: 5em;
