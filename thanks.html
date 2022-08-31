@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="photos/chef.png" type="image/png" />
+    <title>Accessibility Assessment</title>
+  </head>
+  <body>
+    <header>
+      <div id="skip">
+        <a href="#content">Skip to main content >>> </a>
+      </div>
+      <img
+        class="cartoon-image header-image"
+        src="photos/tats.png"
+        alt="A caricature of Justin wearing glasses and Twice t-shirt.  "
+      />
+      <h1 class="top-header" aria-roledescription="Top Header">
+        Chef's Guide to Software Engineering
+      </h1>
+      <nav id="primary-nav" aria-label="Main">
+        <div>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#introduction">Introduction</a>
+            </li>
+            <li>
+              <a href="#tips">Tips</a>
+            </li>
+            <li>
+              <a href="#resources">Resources</a>
+            </li>
+            <li>
+              <a href="#contact-form">Contact-Form</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main id="content">
+      <div class="thanks">
+        <h2>Email Sent! Thank You!</h2>
+      </div>
+    </main>
+    <footer>
+      <!-- <div hidden id="new_window">Opens in New Window</div> -->
+
+      <p>
+        Copyright © <span id="copyright_year"> 2022</span>
+        <a
+          href="https://www.linkedin.com/in/justinaquino-dev/"
+          target="_blank"
+          aria-label="Connect with me on Linked In! A link going to Justin's LinkedIn. Opens in new window."
+          class="white-links"
+        >
+          Justin Aquino
+          <img
+            class="link-icon"
+            src="https://cdn-icons-png.flaticon.com/512/381/381708.png"
+            alt=""
+          />
+        </a>
+        <span>All Rights Reserved.</span>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -177,6 +177,12 @@ label {
   display: block;
 }
 
+.thanks {
+  height: 40vh;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
 footer,
 .white-links {
   margin: 0;
