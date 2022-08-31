@@ -91,6 +91,7 @@ h3 {
   margin-top: 2%;
   margin-bottom: 2%;
   font-size: 18px;
+  text-align: center;
 }
 h4 {
   padding-top: 1%;
@@ -174,6 +175,17 @@ textarea {
 
 label {
   display: block;
+}
+
+footer,
+.white-links {
+  margin: 0;
+  padding: 2%;
+  background-color: var(--primary);
+  color: #fff;
+}
+footer {
+  text-align: center;
 }
 
 @media screen and (min-width: 680px) {

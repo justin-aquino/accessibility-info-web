@@ -71,7 +71,6 @@
             <img
               src="http://www.placekitten.com/g/500/300"
               alt="A Picture of a Kitty"
-              aria-labelledby="A Picture of a Kitty"
             />
             <img
               src="http://www.placekitten.com/g/500/300"
@@ -93,6 +92,9 @@
               <a
                 href="https://www.youtube.com/watch?v=UB1O30fR-EE&t=3140s"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-describedby="new_window"
+                aria-label="A link to the free version of Brad Traversy's HTML Crash Course for Absolute Beginners video on youtube."
               >
                 YouTube.</a
               >
@@ -105,7 +107,11 @@
               website. CSS get access to HTML by the ids and classes designated
               to the HTML elements. I developed responsive static websites with
               galleries to practice flexbox and designing with CSS.
-              <a href="http://flexboxfroggy.com/" target="_blank"
+              <a
+                href="http://flexboxfroggy.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="A link to Flexbox Froggy, an interactive website to learn Flexbox."
                 >Flexbox Froggy</a
               >
               is a clever and fun way to learn Flexbox. My tip is using
@@ -172,9 +178,18 @@
               <a
                 href="https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/"
                 target="_blank"
+                rel="noopener noreferrer"
+                aria-label="A link going to Colt Steele's Javascript Algorithm and Data Structures Masterclass on Udemy."
                 >JavaScript Algorithms and Data Structures Masterclass</a
               >
-              on <a href="https://www.udemy.com/" target="_blank">Udemy</a>
+              on
+              <a
+                href="https://www.udemy.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="A link to Udemy's website."
+                >Udemy</a
+              >
             </p>
           </article>
         </div>
@@ -183,10 +198,21 @@
           <article>
             <h4>Step 4: Portfolio</h4>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
-              aliquam est dicta necessitatibus blanditiis rem incidunt
-              reprehenderit quibusdam voluptas exercitationem? Mollitia, fugiat
-              odio. Odit earum cupiditate et iure explicabo tenetur?
+              Another thing that helped me get noticed is my portfolio. After
+              making projects, no matter how small, make sure you put it in your
+              portfolio. Your portfolio does not have to be super complicated.
+              Just a page where potential employers can see your past projects,
+              your resume, tech stack and a contact form. My
+              <a
+                href="https://www.justin-aquino.com"
+                aria-label="A link going to Justin's portfolio."
+                target="_blank"
+                rel="noopener noreferrer"
+                >portfolio</a
+              >
+              is made with ReactJS, CSS, and Bootstrap. It's easier for me to
+              display my projects by storing the data in the state, and just
+              mapping them throughout the component.
             </p>
           </article>
         </div>
@@ -208,27 +234,48 @@
         <h3>My Top 5 Resources</h3>
         <ol>
           <li>
-            <a href="http://" target="_blank" rel="noopener noreferrer"
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="A link going to Brad Traversy's paid HTML Course on Udemy."
               >Brad Traversy's Intro to HTML</a
             >
           </li>
           <li>
-            <a href="http://" target="_blank" rel="noopener noreferrer"
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="A link going to Brad Traversy's paid CSS Course on Udemy."
               >Brad Traversy's Intro to CSS</a
             >
           </li>
           <li>
-            <a href="http://" target="_blank" rel="noopener noreferrer"
+            <a
+              href="http://"
+              target="_blank"
+              `rel="noopener noreferrer"
+              aria-label="A link going to Brad Traversy's paid Javascript Course on Udemy."
               >Brad Traversy's Intro to Javascript</a
             >
           </li>
           <li>
-            <a href="http://" target="_blank" rel="noopener noreferrer"
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="A link going to Brad Traversy's paid ReactJS Course on Udemy."
               >Brad Traversy's Intro to React</a
             >
           </li>
           <li>
-            <a href="http://" target="_blank" rel="noopener noreferrer"
+            <a
+              href="http://"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-describedby="new_window"
+              aria-label="A link going to Brad Traversy's paid MERN stack eCommerce Course on Udemy."
               >MERN Stack eCommerce Website Udemy Course</a
             >
           </li>
@@ -282,6 +329,27 @@
         </form>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p>
+        <!-- Powered by:
+        <a
+          href="https://www.linkedin.com/in/justinaquino-dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="white-links"
+          aria-describedby="A link going to Justin's LinkedIn"
+          >www.justin-aquino.com</a
+        >
+      </p> -->
+      </p>
+
+      <div class="container bottom-footer">
+        <p>
+          Copyright © <span id="copyright_year"> 2022</span> Justin Aquino
+          <span>All Rights Reserved.</span>
+        </p>
+        <div class="social-icons">
+         
+    </footer>
   </body>
 </html>
