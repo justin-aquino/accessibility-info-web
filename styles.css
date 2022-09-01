@@ -41,6 +41,7 @@ header {
 #primary-nav ul {
   text-align: center;
   padding-left: 0;
+  padding-bottom: 2%;
 }
 #primary-nav ul li {
   display: block;
